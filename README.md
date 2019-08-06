@@ -103,7 +103,7 @@ Open the (main) android project in which you want to use you unity game.
   - Select Import JAR/.AAR Package
   - Locate the .aar file (where it was built earlier)
   - Press Finish
-- In build.gradle(app) add the line: 
+- In build.gradle(app) in dependencies{...} add the line: 
   ```
   implementation project(":<modulename>") 
   ```
