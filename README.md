@@ -82,7 +82,7 @@ Open Android Studio and open the project that Unity exported.
 
 **2.1. Adjuts project files**
 Certain Android project files should be adjusted in order to make the project into a module and to prevent possible errors while importing the module into our main android app:
-- In AndroidManifest.xml comment or delete the <intent-filter> within the <activity> tag 
+- In AndroidManifest.xml comment or delete the intent-filter within the activity tag 
 - In build.gradle:
   - locate and change "com.android.application" to "com.android.library"
   - locate and set compileSdkVersion to match the main project
